@@ -60,8 +60,7 @@ key.forEach((key) => {
     }
 
     if (key.classList.contains('enter')) {
-      keyText = '';
-      textField.value = keyText.slice(0);
+      keyText = '\n';
     }
 
     if (key.classList.contains('space')) {
@@ -69,7 +68,7 @@ key.forEach((key) => {
     }
 
     if (key.classList.contains('tab')) {
-      keyText = '\n';
+      keyText = '\t';
     }
 
     if (caps.classList.contains('active')) {
