@@ -144,3 +144,11 @@ body {
   transform: scale(1);
 }
 
+.disclaimer {
+  position: absolute;
+  top: 0;
+  left: 10rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
