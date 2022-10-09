@@ -245,7 +245,6 @@ key.forEach((key) => {
     } else if (shift.classList.contains('active')) {
       shiftNum = 1;
       if (shiftNum == 1 && key) {
-        console.log(shiftNum);
         if (shift != key) {
           textField.value += keyText.toUpperCase();
           shiftNum = 0;
